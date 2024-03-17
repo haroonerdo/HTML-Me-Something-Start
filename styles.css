@@ -1,1 +1,79 @@
 /* Write your CSS here! */
+  body {
+    margin: 8px;
+    background-color:antiquewhite;
+    display:block;
+  }
+  header {
+    background-color:aquamarine;
+    padding: 60px;
+  }
+  
+  #mainHeading{
+    color:red;
+    font-family:cursive;
+    font-size: 55px;
+    text-align:center;
+  }
+
+  #fables{
+    color:navy;
+    text-align:left;
+    font-size: 22px;
+    font-family: cursive;
+  }
+  
+
+  #heading {
+    color: red;
+    font-family:cursive;
+    font-size: 44px;
+    text-align:center;
+  }
+  
+  #header-box {
+    display: flex;
+    flex-direction: column; 
+    align-items:center;
+    padding: 60px; 
+    background-color: yellow;
+    border: 5px solid gray;
+    width:auto
+  }
+  
+  
+  main {
+    margin-top: 11px;
+    font-family:fantasy;
+    font-size: 27px;  
+  }
+
+  #text{
+    text-align: center;
+  }
+
+  #testP{
+    font-size: 33px;
+    font-style: italic;
+    text-decoration: solid;
+    text-decoration:underline;
+  }
+
+  .funParagraph {
+    color: green;
+    font-size: 33px;
+    line-height: 1.5;
+  }
+
+  .picture{
+    width: 333px;
+    height:333px;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    color: black;
+    margin-top: 40px;
+  }
